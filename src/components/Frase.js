@@ -1,8 +1,11 @@
+import styles from './Frase.module.css'
+
 function Frase(){
     return (
-        <div>
-            <p>Outro componente!</p>
+        <div className={styles.fraseContainer}>
+            <p className={styles.fraseContent}>Componente marroto usando ReactJS!</p>
         </div>
+        
     )
 }
 
